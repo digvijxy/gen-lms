@@ -8,8 +8,8 @@ function CourseIntroCard({ course }) {
             <div className="text-center">
                 <h2 className="text-2xl font-bold mb-2 text-gray-100">{course?.courseLayout?.courseTitle}</h2>
                 <p className="mb-4 text-gray-400">{course?.courseLayout?.courseSummary}</p>
-                <Progress value={0} className="w-full mb-4 bg-gray-700" />
-                <h2 className="text-sm text-gray-400">Total Chapters: {course?.courseLayout?.chapters?.length}</h2>
+                {/* <Progress value={0} className="w-full mb-4 bg-gray-700" />
+                <h2 className="text-sm text-gray-400">Total Chapters: {course?.courseLayout?.chapters?.length}</h2> */}
             </div>
         </div>
     );
